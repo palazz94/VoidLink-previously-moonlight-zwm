@@ -12,5 +12,4 @@ SourcePackages/
 .build-cache/
 build-home/
 *.xccheckout
-.github
 README.md
