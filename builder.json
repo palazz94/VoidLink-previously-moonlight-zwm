@@ -1,0 +1,18 @@
+{
+  "project": "VoidLink-previously-moonlight-zwm",
+  "platform": "ios",
+  "github": {
+    "owner": "palazz94",
+    "repo": "VoidLink-previously-moonlight-zwm"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {},
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "kmp": {},
+  "mobai": {}
+}
