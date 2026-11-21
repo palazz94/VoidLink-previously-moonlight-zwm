@@ -87,6 +87,9 @@ jobs:
           git checkout --force snapshot
           echo "Building $(git rev-parse --short HEAD)"
 
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
+
       # Dispatch inputs arrive with their declared defaults; a tag push has none,
       # so the values come from builder.json in the tagged commit (defaultProfile
       # included) and the build id is the tag name after the prefix.
